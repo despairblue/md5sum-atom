@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle md5sum",
+        "command": "md5sum:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "md5sum",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "md5sum:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
