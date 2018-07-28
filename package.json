@@ -3,10 +3,9 @@
   "main": "./lib/md5sum",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "md5sum:toggle"
+    "atom-workspace": "md5sum:hash"
   },
   "repository": "https://github.com/atom/md5sum",
   "license": "MIT",
@@ -14,5 +13,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "delay": "^3.0.0"
   }
 }
