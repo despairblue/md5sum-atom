@@ -1,7 +1,7 @@
 {
   "name": "md5sum",
   "main": "./lib/md5sum",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "replaces current selection by it's hash",
   "keywords": [],
   "activationCommands": {
