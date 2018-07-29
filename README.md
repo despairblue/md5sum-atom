@@ -1,4 +1,4 @@
-# Markdown Preview package
+# md5sum
 
 Replaces current selection by it's hash.
 
